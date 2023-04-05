@@ -8,6 +8,10 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
+
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
@@ -16,6 +20,7 @@ main {
     border: none;
     border-radius: 30px;
     text-align: center;
+    
 }
 
 .main-img {
@@ -64,18 +69,18 @@ main {
     font-size: 0.7rem;
 }
 
-.price-div p {
-    font-size: 0.8rem;
-    color: hsl(245, 75%, 52%);
-    text-decoration: underline;
-}
-
 .plan-div h2 {
     color: hsl(223, 47%, 23%);
 }
 
 .plan-div p {
     color: hsl(224, 23%, 55%);
+}
+
+.change {
+    font-size: 0.8rem;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
 }
 
 .btn-div {
@@ -105,3 +110,23 @@ main {
     font-size: 0.8rem;
     font-weight: 700;
 }
+
+/*Hover Effects*/
+.change:hover {
+    cursor: pointer;
+    color: hsl(245, 61%, 63%);
+    text-decoration: none;
+}
+
+.order-btn:hover {
+    background-color: hsl(245, 61%, 63%);
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+}
+
+
